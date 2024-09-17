@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <style>
+        body {
+            background-color: orange;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: orange;
+            text-align: center;
+            font-size: 5vw;
+            font-weight: bold;
+            padding: 15px;
+        }
+        .size {
+            background-color: darkorange;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .size a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: orange;
+        }
+        .list img {
+            width: 100%;
+            max-width: 200px;
+            margin: 10px;
+        }
+        .nav-dots {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .nav-dots span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        .sample {
+            background-color: orange;
+            padding: 20px;
+            font-size: 4vw;
+            text-align: center;
+        }
+        footer {
+            background-color: orange;
+            padding: 10px;
+            font-size: 3vw;
+            text-align: center;
+        }
+        @media (min-width: 600px) {
+            .container {
+                font-size: 3vw;
+            }
+            .size {
+                font-size: 2vw;
+            }
+            .sample {
+                font-size: 2vw;
+            }
+            footer {
+                font-size: 2vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>MY MANGA LIST</div>
+        </div>
+        <div class="size">
+            <nav>
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="list">
+        <img src="p1.jpeg" alt="Photo 1">
+        <img src="p2.jpeg" alt="Photo 2">
+        <img src="p3.jpeg" alt="Photo 3">
+        <img src="p4f.jpeg" alt="Photo 4">
+    </div>
+    <div class="nav-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <main>
+        <div class="sample">
+            <h1>Welcome to Our Website</h1>
+            <p>ANIME CLASS IS GREAT AT ALL.</p>
+        </div>
+    </main>
+    <footer>
+        <p>© animelist with high quality.</p>
+    </footer>
+</body>
+</html>
